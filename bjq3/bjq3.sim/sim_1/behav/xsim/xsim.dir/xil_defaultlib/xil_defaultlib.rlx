@@ -1,0 +1,9 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/programming/Xilinx/Vivado/2020.1/my/bjq3/bjq3.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/programming/Xilinx/Vivado/2020.1/my/bjq3/bjq3.srcs/sim_1/new/sim_bjq.v,1604733121,verilog,,,,sim_bjq,,,,,,,,
+D:/programming/Xilinx/Vivado/2020.1/my/bjq3/bjq3.srcs/sources_1/ip/mux_0/sim/mux_0.v,1604732510,verilog,,D:/programming/Xilinx/Vivado/2020.1/my/bjq3/bjq3.srcs/sources_1/new/bjq.v,,mux_0,,,,,,,,
+D:/programming/Xilinx/Vivado/2020.1/my/bjq3/bjq3.srcs/sources_1/ip/mux_0/sources_1/new/mux.v,1604732510,verilog,,D:/programming/Xilinx/Vivado/2020.1/my/bjq3/bjq3.srcs/sources_1/ip/mux_0/sim/mux_0.v,,mux,,,,,,,,
+D:/programming/Xilinx/Vivado/2020.1/my/bjq3/bjq3.srcs/sources_1/new/bjq.v,1604732817,verilog,,D:/programming/Xilinx/Vivado/2020.1/my/bjq3/bjq3.srcs/sim_1/new/sim_bjq.v,,bjq,,,,,,,,

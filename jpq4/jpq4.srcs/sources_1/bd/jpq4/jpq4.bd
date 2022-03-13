@@ -1,0 +1,298 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x81A7E649379838E9",
+      "device": "xc7a35tcsg324-3",
+      "name": "jpq4",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "myD_0": "",
+      "myD_1": "",
+      "myD_2": "",
+      "myD_3": "",
+      "mynand_0": ""
+    },
+    "ports": {
+      "reset": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "reset"
+          },
+          "CLK_DOMAIN": {
+            "value": "jpq4_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "Q0": {
+        "direction": "O"
+      },
+      "Q1": {
+        "direction": "O"
+      },
+      "Q2": {
+        "direction": "O"
+      },
+      "Q3": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "myD_0": {
+        "vlnv": "xilinx.com:module_ref:myD:1.0",
+        "xci_name": "jpq4_myD_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "myD",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "jpq4_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "D": {
+            "direction": "I"
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "Q": {
+            "direction": "O"
+          }
+        }
+      },
+      "myD_1": {
+        "vlnv": "xilinx.com:module_ref:myD:1.0",
+        "xci_name": "jpq4_myD_0_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "myD",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "jpq4_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "D": {
+            "direction": "I"
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "Q": {
+            "direction": "O"
+          }
+        }
+      },
+      "myD_2": {
+        "vlnv": "xilinx.com:module_ref:myD:1.0",
+        "xci_name": "jpq4_myD_0_2",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "myD",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "jpq4_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "D": {
+            "direction": "I"
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "Q": {
+            "direction": "O"
+          }
+        }
+      },
+      "myD_3": {
+        "vlnv": "xilinx.com:module_ref:myD:1.0",
+        "xci_name": "jpq4_myD_0_3",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "myD",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "jpq4_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "D": {
+            "direction": "I"
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "Q": {
+            "direction": "O"
+          }
+        }
+      },
+      "mynand_0": {
+        "vlnv": "xilinx.com:module_ref:mynand:1.0",
+        "xci_name": "jpq4_mynand_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "mynand",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "c": {
+            "direction": "I"
+          },
+          "f": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "reset_0_1": {
+        "ports": [
+          "reset",
+          "myD_0/reset",
+          "myD_1/reset",
+          "myD_2/reset",
+          "myD_3/reset"
+        ]
+      },
+      "mynand_0_f": {
+        "ports": [
+          "mynand_0/f",
+          "myD_3/D"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk",
+          "myD_0/clk",
+          "myD_1/clk",
+          "myD_2/clk",
+          "myD_3/clk"
+        ]
+      },
+      "myD_0_Q": {
+        "ports": [
+          "myD_0/Q",
+          "Q0"
+        ]
+      },
+      "myD_1_Q": {
+        "ports": [
+          "myD_1/Q",
+          "Q1",
+          "mynand_0/c",
+          "myD_0/D"
+        ]
+      },
+      "myD_2_Q": {
+        "ports": [
+          "myD_2/Q",
+          "Q2",
+          "myD_1/D",
+          "mynand_0/b"
+        ]
+      },
+      "myD_3_Q": {
+        "ports": [
+          "myD_3/Q",
+          "Q3",
+          "myD_2/D",
+          "mynand_0/a"
+        ]
+      }
+    }
+  }
+}

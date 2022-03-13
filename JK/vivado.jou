@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Nov 27 19:44:05 2020
+# Process ID: 13456
+# Current directory: D:/programming/Xilinx/Vivado/2020.1/my/JK
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11812 D:\programming\Xilinx\Vivado\2020.1\my\JK\JK.xpr
+# Log file: D:/programming/Xilinx/Vivado/2020.1/my/JK/vivado.log
+# Journal file: D:/programming/Xilinx/Vivado/2020.1/my/JK\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/programming/Xilinx/Vivado/2020.1/my/JK/JK.xpr
+update_compile_order -fileset sources_1

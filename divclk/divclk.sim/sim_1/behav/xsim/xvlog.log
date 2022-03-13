@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/programming/Xilinx/Vivado/2020.1/my/divclk/divclk.srcs/sources_1/new/divclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divclk
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/programming/Xilinx/Vivado/2020.1/my/divclk/divclk.srcs/sim_1/new/sim_divclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_divclk
+INFO: [VRFC 10-2458] undeclared symbol divclk, assumed default net type wire [D:/programming/Xilinx/Vivado/2020.1/my/divclk/divclk.srcs/sim_1/new/sim_divclk.v:25]

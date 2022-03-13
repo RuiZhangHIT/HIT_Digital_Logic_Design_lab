@@ -1,0 +1,13 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/hdl/jpq4_wrapper.v,1606547148,verilog,,,,jpq4_wrapper,,,,,,,,
+D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/ip/jpq4_myD_0_0/sim/jpq4_myD_0_0.v,1606493107,verilog,,D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/ip/jpq4_myD_0_1/sim/jpq4_myD_0_1.v,,jpq4_myD_0_0,,,,,,,,
+D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/ip/jpq4_myD_0_1/sim/jpq4_myD_0_1.v,1606493107,verilog,,D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/ip/jpq4_myD_0_2/sim/jpq4_myD_0_2.v,,jpq4_myD_0_1,,,,,,,,
+D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/ip/jpq4_myD_0_2/sim/jpq4_myD_0_2.v,1606493107,verilog,,D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/ip/jpq4_myD_0_3/sim/jpq4_myD_0_3.v,,jpq4_myD_0_2,,,,,,,,
+D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/ip/jpq4_myD_0_3/sim/jpq4_myD_0_3.v,1606493107,verilog,,D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/ip/jpq4_mynand_0_0/sim/jpq4_mynand_0_0.v,,jpq4_myD_0_3,,,,,,,,
+D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/ip/jpq4_mynand_0_0/sim/jpq4_mynand_0_0.v,1606493107,verilog,,D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/sim/jpq4.v,,jpq4_mynand_0_0,,,,,,,,
+D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/sim/jpq4.v,1606577723,verilog,,D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/hdl/jpq4_wrapper.v,,jpq4,,,,,,,,
+D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/new/jpq4.v,1606493021,verilog,,D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/ip/jpq4_myD_0_0/sim/jpq4_myD_0_0.v,,myD;mynand,,,,,,,,

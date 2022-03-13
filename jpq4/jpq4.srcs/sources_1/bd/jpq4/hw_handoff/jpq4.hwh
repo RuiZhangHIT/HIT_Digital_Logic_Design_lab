@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Nov 28 23:35:23 2020" VIVADOVERSION="2020.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="jpq4" PACKAGE="csg324" SPEEDGRADE="-3"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_reset">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="myD_0" PORT="reset"/>
+        <CONNECTION INSTANCE="myD_1" PORT="reset"/>
+        <CONNECTION INSTANCE="myD_2" PORT="reset"/>
+        <CONNECTION INSTANCE="myD_3" PORT="reset"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="myD_0" PORT="clk"/>
+        <CONNECTION INSTANCE="myD_1" PORT="clk"/>
+        <CONNECTION INSTANCE="myD_2" PORT="clk"/>
+        <CONNECTION INSTANCE="myD_3" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Q0" SIGIS="undef" SIGNAME="myD_0_Q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="myD_0" PORT="Q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Q1" SIGIS="undef" SIGNAME="myD_1_Q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="myD_1" PORT="Q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Q2" SIGIS="undef" SIGNAME="myD_2_Q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="myD_2" PORT="Q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Q3" SIGIS="undef" SIGNAME="myD_3_Q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="myD_3" PORT="Q"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/myD_0" HWVERSION="1.0" INSTANCE="myD_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="myD" VLNV="xilinx.com:module_ref:myD:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="jpq4_myD_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D" SIGIS="undef" SIGNAME="myD_1_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="myD_1" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q" SIGIS="undef" SIGNAME="myD_0_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/myD_1" HWVERSION="1.0" INSTANCE="myD_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="myD" VLNV="xilinx.com:module_ref:myD:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="jpq4_myD_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D" SIGIS="undef" SIGNAME="myD_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="myD_2" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q" SIGIS="undef" SIGNAME="myD_1_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q1"/>
+            <CONNECTION INSTANCE="mynand_0" PORT="c"/>
+            <CONNECTION INSTANCE="myD_0" PORT="D"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/myD_2" HWVERSION="1.0" INSTANCE="myD_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="myD" VLNV="xilinx.com:module_ref:myD:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="jpq4_myD_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D" SIGIS="undef" SIGNAME="myD_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="myD_3" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q" SIGIS="undef" SIGNAME="myD_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q2"/>
+            <CONNECTION INSTANCE="myD_1" PORT="D"/>
+            <CONNECTION INSTANCE="mynand_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/myD_3" HWVERSION="1.0" INSTANCE="myD_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="myD" VLNV="xilinx.com:module_ref:myD:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="jpq4_myD_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D" SIGIS="undef" SIGNAME="mynand_0_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="mynand_0" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q" SIGIS="undef" SIGNAME="myD_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q3"/>
+            <CONNECTION INSTANCE="myD_2" PORT="D"/>
+            <CONNECTION INSTANCE="mynand_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/mynand_0" HWVERSION="1.0" INSTANCE="mynand_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="mynand" VLNV="xilinx.com:module_ref:mynand:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="jpq4_mynand_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="myD_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="myD_3" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="myD_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="myD_2" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="myD_1_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="myD_1" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f" SIGIS="undef" SIGNAME="mynand_0_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="myD_3" PORT="D"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

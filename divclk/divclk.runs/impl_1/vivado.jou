@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Dec 13 23:22:29 2020
+# Process ID: 16856
+# Current directory: D:/programming/Xilinx/Vivado/2020.1/my/divclk/divclk.runs/impl_1
+# Command line: vivado.exe -log divclk.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source divclk.tcl -notrace
+# Log file: D:/programming/Xilinx/Vivado/2020.1/my/divclk/divclk.runs/impl_1/divclk.vdi
+# Journal file: D:/programming/Xilinx/Vivado/2020.1/my/divclk/divclk.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source divclk.tcl -notrace

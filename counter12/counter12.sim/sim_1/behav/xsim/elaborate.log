@@ -1,0 +1,12 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/programming/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 14bcb89b1492474b8e94cbde64149912 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_counter12_behav xil_defaultlib.sim_counter12 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'set_n' [D:/programming/Xilinx/Vivado/2020.1/my/counter12/counter12.srcs/sources_1/new/counter12.v:29]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'set_n' [D:/programming/Xilinx/Vivado/2020.1/my/counter12/counter12.srcs/sources_1/new/counter12.v:30]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'set_n' [D:/programming/Xilinx/Vivado/2020.1/my/counter12/counter12.srcs/sources_1/new/counter12.v:31]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'set_n' [D:/programming/Xilinx/Vivado/2020.1/my/counter12/counter12.srcs/sources_1/new/counter12.v:32]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

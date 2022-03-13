@@ -1,0 +1,30 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.22131",
+   "Default View_TopLeft":"-264,-110",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port reset -pg 1 -lvl 0 -x -160 -y 300 -defaultsOSRD
+preplace port clk -pg 1 -lvl 0 -x -160 -y 90 -defaultsOSRD
+preplace port Q0 -pg 1 -lvl 3 -x 580 -y 420 -defaultsOSRD
+preplace port Q1 -pg 1 -lvl 3 -x 580 -y 280 -defaultsOSRD
+preplace port Q2 -pg 1 -lvl 3 -x 580 -y 140 -defaultsOSRD
+preplace port Q3 -pg 1 -lvl 3 -x 580 -y -10 -defaultsOSRD
+preplace inst myD_0 -pg 1 -lvl 2 -x 430 -y 420 -defaultsOSRD
+preplace inst myD_1 -pg 1 -lvl 2 -x 430 -y 280 -defaultsOSRD
+preplace inst myD_2 -pg 1 -lvl 2 -x 430 -y 140 -defaultsOSRD
+preplace inst myD_3 -pg 1 -lvl 2 -x 430 -y -10 -defaultsOSRD
+preplace inst mynand_0 -pg 1 -lvl 1 -x 210 -y 210 -defaultsOSRD
+preplace netloc reset_0_1 1 0 2 N 300 330
+preplace netloc mynand_0_f 1 1 1 300 -10n
+preplace netloc clk_0_1 1 0 2 N 90 320
+preplace netloc myD_0_Q 1 2 1 N 420
+preplace netloc myD_1_Q 1 0 3 -130 310 300 500 520
+preplace netloc myD_2_Q 1 0 3 -140 290 290 -100 530
+preplace netloc myD_3_Q 1 0 3 -140 130 310 -90 520
+levelinfo -pg 1 -160 210 430 580
+pagesize -pg 1 -db -bbox -sgen -240 -190 650 510
+"
+}
+0

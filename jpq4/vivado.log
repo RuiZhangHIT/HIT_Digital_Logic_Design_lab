@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Nov 27 22:22:10 2020
+# Process ID: 11132
+# Current directory: D:/programming/Xilinx/Vivado/2020.1/my/jpq4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6236 D:\programming\Xilinx\Vivado\2020.1\my\jpq4\jpq4.xpr
+# Log file: D:/programming/Xilinx/Vivado/2020.1/my/jpq4/vivado.log
+# Journal file: D:/programming/Xilinx/Vivado/2020.1/my/jpq4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/programming/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:55 ; elapsed = 00:00:22 . Memory (MB): peak = 1034.426 ; gain = 0.000
+open_bd_design {D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/jpq4.bd}
+Adding component instance block -- xilinx.com:module_ref:myand:1.0 - myand_0
+Adding component instance block -- xilinx.com:module_ref:myand:1.0 - myand_1
+Adding component instance block -- xilinx.com:module_ref:myand:1.0 - myand_2
+Adding component instance block -- xilinx.com:module_ref:myand:1.0 - myand_3
+Successfully read diagram <jpq4> from BD file <D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/jpq4.bd>
+open_bd_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1034.426 ; gain = 0.000
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference myD myD_0
+update_module_reference jpq4_myD_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+Upgrading 'D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/jpq4.bd'
+INFO: [IP_Flow 19-1972] Upgraded jpq4_myD_0_0 from myD_v1_0 1.0 to myD_v1_0 1.0
+INFO: [IP_Flow 19-4702] Upgrade has renamed port 'q' as 'Q'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'P'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'jpq4_myD_0_0'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1280] The upgrade of 'jpq4_myD_0_0' has identified issues that may require user intervention. Please verify that the instance is correctly configured, and review any upgrade messages.
+Wrote  : <D:\programming\Xilinx\Vivado\2020.1\my\jpq4\jpq4.srcs\sources_1\bd\jpq4\jpq4.bd> 
+Wrote  : <D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/ui/bd_89162ac9.ui> 
+update_module_reference: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1034.426 ; gain = 0.000
+update_module_reference {jpq4_myand_0_0 jpq4_myand_0_1 jpq4_myand_0_2 jpq4_myand_0_3}
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+Upgrading 'D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/jpq4.bd'
+INFO: [IP_Flow 19-1972] Upgraded jpq4_myand_0_0 from myand_v1_0 1.0 to myand_v1_0 1.0
+INFO: [IP_Flow 19-1972] Upgraded jpq4_myand_0_1 from myand_v1_0 1.0 to myand_v1_0 1.0
+INFO: [IP_Flow 19-1972] Upgraded jpq4_myand_0_2 from myand_v1_0 1.0 to myand_v1_0 1.0
+INFO: [IP_Flow 19-1972] Upgraded jpq4_myand_0_3 from myand_v1_0 1.0 to myand_v1_0 1.0
+Wrote  : <D:\programming\Xilinx\Vivado\2020.1\my\jpq4\jpq4.srcs\sources_1\bd\jpq4\jpq4.bd> 
+Wrote  : <D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/ui/bd_89162ac9.ui> 
+update_module_reference: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1034.426 ; gain = 0.000
+copy_bd_objs /  [get_bd_cells {myD_0}]
+copy_bd_objs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1034.426 ; gain = 0.000
+connect_bd_net [get_bd_ports clk_0] [get_bd_pins myD_0/clk]
+set_property location {-23 -20} [get_bd_ports clk_0]
+connect_bd_net [get_bd_pins myD_0/P] [get_bd_pins myand_1/a]
+connect_bd_net [get_bd_pins myD_0/P] [get_bd_pins myand_3/a]
+delete_bd_objs [get_bd_nets myD_0_P]
+connect_bd_net [get_bd_pins myD_0/Q] [get_bd_pins myand_1/a]
+connect_bd_net [get_bd_pins myD_0/Q] [get_bd_pins myand_3/a]
+connect_bd_net [get_bd_pins myD_0/P] [get_bd_pins myand_0/a]
+connect_bd_net [get_bd_pins myD_0/P] [get_bd_pins myand_2/a]
+connect_bd_net [get_bd_pins myD_0/Q] [get_bd_pins myD_1/clk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /myD_0/Q(undef) and /myD_1/clk(clk)
+connect_bd_net [get_bd_pins myD_1/Q] [get_bd_pins myand_2/b]
+connect_bd_net [get_bd_pins myD_1/Q] [get_bd_pins myand_3/b]
+connect_bd_net [get_bd_pins myD_1/P] [get_bd_pins myand_0/b]
+connect_bd_net [get_bd_pins myD_1/P] [get_bd_pins myand_1/b]
+save_bd_design
+Wrote  : <D:\programming\Xilinx\Vivado\2020.1\my\jpq4\jpq4.srcs\sources_1\bd\jpq4\jpq4.bd> 
+Wrote  : <D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/ui/bd_89162ac9.ui> 
+exit

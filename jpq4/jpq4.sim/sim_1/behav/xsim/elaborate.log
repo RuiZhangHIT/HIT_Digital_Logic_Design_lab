@@ -1,0 +1,21 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/programming/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 134d2d8c3cf44848becba1ec9d0b512b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot jpq4_wrapper_behav xil_defaultlib.jpq4_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.myD
+Compiling module xil_defaultlib.jpq4_myD_0_0
+Compiling module xil_defaultlib.jpq4_myD_0_1
+Compiling module xil_defaultlib.jpq4_myD_0_2
+Compiling module xil_defaultlib.jpq4_myD_0_3
+Compiling module xil_defaultlib.mynand
+Compiling module xil_defaultlib.jpq4_mynand_0_0
+Compiling module xil_defaultlib.jpq4
+Compiling module xil_defaultlib.jpq4_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot jpq4_wrapper_behav

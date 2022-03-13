@@ -1,0 +1,303 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 11132
+License: Customer
+
+Current time: 	Fri Nov 27 22:22:39 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 2160x1440
+Screen resolution (DPI): 150
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/programming/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	D:/programming/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ZR
+User home directory: C:/Users/ZR
+User working directory: D:/programming/Xilinx/Vivado/2020.1/my/jpq4
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/programming/Xilinx/Vivado
+HDI_APPROOT: D:/programming/Xilinx/Vivado/2020.1
+RDI_DATADIR: D:/programming/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: D:/programming/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/ZR/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/ZR/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/ZR/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	D:/programming/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	D:/programming/Xilinx/Vivado/2020.1/my/jpq4/vivado.log
+Vivado journal file location: 	D:/programming/Xilinx/Vivado/2020.1/my/jpq4/vivado.jou
+Engine tmp dir: 	D:/programming/Xilinx/Vivado/2020.1/my/jpq4/.Xil/Vivado-11132-HUAWEIMateBookX
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/programming/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: D:/programming/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: D:/programming/Xilinx/Vivado/2020.1
+XILINX_VIVADO: D:/programming/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: D:/programming/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	185 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,020 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  1219 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 113 MB (+116237kb) [00:00:20]
+// [Engine Memory]: 1,020 MB (+918145kb) [00:00:20]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: D:\programming\Xilinx\Vivado\2020.1\my\jpq4\jpq4.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 66 MB. Current time: 11/27/20, 10:22:41 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 127 MB (+8103kb) [00:00:36]
+// WARNING: HEventQueue.dispatchEvent() is taking  9667 ms.
+// Tcl Message: open_project D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/programming/Xilinx/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:55 ; elapsed = 00:00:22 . Memory (MB): peak = 1034.426 ; gain = 0.000 
+// Project name: jpq4; location: D:/programming/Xilinx/Vivado/2020.1/my/jpq4; part: xc7a35tcsg324-3
+dismissDialog("Open Project"); // bz (cs)
+// [GUI Memory]: 134 MB (+1127kb) [00:00:46]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// PAPropertyPanels.initPanels (jpq4.bd) elapsed time: 0.3s
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, jpq4 (jpq4.bd)]", 3, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, jpq4 (jpq4.bd), jpq4_myand_0_0 (Module Reference Wrapper)]", 4, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// bz (cs):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/jpq4.bd} 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_OPEN_DIAGRAM
+// PAPropertyPanels.initPanels (jpq4.bd) elapsed time: 0.2s
+// WARNING: HEventQueue.dispatchEvent() is taking  3698 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:myand:1.0 - myand_0 Adding component instance block -- xilinx.com:module_ref:myand:1.0 - myand_1 Adding component instance block -- xilinx.com:module_ref:myand:1.0 - myand_2 Adding component instance block -- xilinx.com:module_ref:myand:1.0 - myand_3 Successfully read diagram <jpq4> from BD file <D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/jpq4.bd> 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1034.426 ; gain = 0.000 
+dismissDialog("Open Block Design"); // bz (cs)
+// [GUI Memory]: 150 MB (+9630kb) [00:01:12]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myD (myand.v)]", 3, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_MODULE_TO_BD, "Add Module to Block Design"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_MODULE_TO_BD
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_cell -type module -reference myD myD_0 
+// PAPropertyPanels.initPanels (myD_0) elapsed time: 0.2s
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myand (myand.v)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myand (myand.v)]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("myand.v", 178, 262); // bP (w, cs)
+selectCodeEditor("myand.v", 130, 314); // bP (w, cs)
+selectCodeEditor("myand.v", 80, 418); // bP (w, cs)
+selectCodeEditor("myand.v", 395, 363); // bP (w, cs)
+selectCodeEditor("myand.v", 178, 254); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES, "Refresh Changed Modules"); // h (ds, cs)
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_module_reference jpq4_myD_0_0 
+// bz (cs):  Refresh IP Catalog : addNotify
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: Upgrading 'D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/jpq4.bd' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded jpq4_myD_0_0 from myD_v1_0 1.0 to myD_v1_0 1.0 INFO: [IP_Flow 19-4702] Upgrade has renamed port 'q' as 'Q' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <D:\programming\Xilinx\Vivado\2020.1\my\jpq4\jpq4.srcs\sources_1\bd\jpq4\jpq4.bd>  Wrote  : <D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/ui/bd_89162ac9.ui>  
+// Tcl Message: update_module_reference: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1034.426 ; gain = 0.000 
+// Tcl Message: update_module_reference {jpq4_myand_0_0 jpq4_myand_0_1 jpq4_myand_0_2 jpq4_myand_0_3} 
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: Upgrading 'D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/jpq4.bd' 
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded jpq4_myand_0_0 from myand_v1_0 1.0 to myand_v1_0 1.0 INFO: [IP_Flow 19-1972] Upgraded jpq4_myand_0_1 from myand_v1_0 1.0 to myand_v1_0 1.0 INFO: [IP_Flow 19-1972] Upgraded jpq4_myand_0_2 from myand_v1_0 1.0 to myand_v1_0 1.0 INFO: [IP_Flow 19-1972] Upgraded jpq4_myand_0_3 from myand_v1_0 1.0 to myand_v1_0 1.0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <D:\programming\Xilinx\Vivado\2020.1\my\jpq4\jpq4.srcs\sources_1\bd\jpq4\jpq4.bd>  Wrote  : <D:/programming/Xilinx/Vivado/2020.1/my/jpq4/jpq4.srcs/sources_1/bd/jpq4/ui/bd_89162ac9.ui>  
+// Tcl Message: update_module_reference: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1034.426 ; gain = 0.000 
+// a (cs): Critical Messages: addNotify
+// Elapsed time: 14 seconds
+dismissDialog("Refresh IP Catalog"); // bz (cs)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cs)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 565, 118, 1130, 631, false, false, false, true, false); // hq (m, cs) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, Popup.HeavyWeightWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_COPY
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 590, 301, 1130, 631, false, false, false, true, false); // hq (m, cs) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ai (ao, Popup.HeavyWeightWindow)
+// TclEventType: RSB_SCRIPT_TASK
+// bz (cs):  Paste : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: copy_bd_objs /  [get_bd_cells {myD_0}] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_COPY_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: copy_bd_objs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1034.426 ; gain = 0.000 
+dismissDialog("Paste"); // bz (cs)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports clk_0] [get_bd_pins myD_0/clk] 
+// PAPropertyPanels.initPanels (clk_0_1) elapsed time: 0.2s
+// Tcl Command: 'set_property location {-23 -20} [get_bd_ports clk_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {-23 -20} [get_bd_ports clk_0] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins myD_0/P] [get_bd_pins myand_1/a] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins myD_0/P] [get_bd_pins myand_3/a] 
+// Elapsed time: 239 seconds
+selectButton(PAResourceCommand.PACommandNames_SELECT_AREA, "System_select_area"); // x (g, cs): TRUE
+// Run Command: PAResourceCommand.PACommandNames_SELECT_AREA
+// Elapsed time: 11 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 676, 270, 1130, 757, false, false, false, true, false); // hq (m, cs) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Delete"); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_nets myD_0_P] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins myD_0/Q] [get_bd_pins myand_1/a] 
+// [GUI Memory]: 158 MB (+170kb) [00:07:27]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins myD_0/Q] [get_bd_pins myand_3/a] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins myD_0/P] [get_bd_pins myand_0/a] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins myD_0/P] [get_bd_pins myand_2/a] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins myD_0/Q] [get_bd_pins myD_1/clk] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins myD_1/Q] [get_bd_pins myand_2/b] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins myD_1/Q] [get_bd_pins myand_3/b] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins myD_1/P] [get_bd_pins myand_0/b] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins myD_1/P] [get_bd_pins myand_1/b] 
+// Elapsed time: 436 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myand.v", 2); // m (l, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 90 MB. Current time: 11/27/20, 10:52:40 PM CST
+// Elapsed time: 1531 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myand (myand.v)]", 2, false); // B (F, cs)
+selectCodeEditor("myand.v", 108, 235); // bP (w, cs)
+// Elapsed time: 35 seconds
+selectCodeEditor("myand.v", 85, 224); // bP (w, cs)
+selectCodeEditor("myand.v", 155, 227); // bP (w, cs)
+selectCodeEditor("myand.v", 161, 230); // bP (w, cs)
+selectCodeEditor("myand.v", 83, 255); // bP (w, cs)
+selectCodeEditor("myand.v", 86, 314); // bP (w, cs)

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/programming/Xilinx/Vivado/2020.1/my/compare/compare.srcs/sources_1/new/compare.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compare
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/programming/Xilinx/Vivado/2020.1/my/compare/compare.srcs/sim_1/new/sim_compare.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_compare
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/programming/Xilinx/Vivado/2020.1/my/compare/compare.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
